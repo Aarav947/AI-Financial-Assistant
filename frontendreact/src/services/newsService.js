@@ -1,4 +1,4 @@
-const FINNHUB_API_KEY = 'd43lhbhr01qvet2pklu0d43lhbhr01qvet2pklug';
+const FINNHUB_API_KEY = 'your_generated_api_key';
 const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
 
 // Marketaux for Indian AND Forex financial news
@@ -236,3 +236,4 @@ const extractSymbols = (article) => {
   
   return symbols;
 };
+
