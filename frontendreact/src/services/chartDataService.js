@@ -1,4 +1,4 @@
-const FINNHUB_API_KEY = 'd43kj19r01qvk0jcbpjgd43kj19r01qvk0jcbpk0';
+const FINNHUB_API_KEY = 'your_generated_api_key';
 const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
 const ALPHA_VANTAGE_KEY = 'SF8ZXC6RYYK39NZA';
 
@@ -233,3 +233,4 @@ export const fetchCommodityData = async (symbol, period = '1M') => {
     return generateFallbackData(symbol, period);
   }
 };
+
