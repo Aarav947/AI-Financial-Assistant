@@ -1,5 +1,5 @@
 // Using Finnhub API for real-time market data
-const FINNHUB_API_KEY = 'd43lhbhr01qvet2pklu0d43lhbhr01qvet2pklug';
+const FINNHUB_API_KEY = 'your_generated_api_key';
 const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
 const EXCHANGE_RATE_API = 'https://api.exchangerate-api.com/v4/latest/USD';
 
@@ -305,3 +305,4 @@ const getMockMarketData = () => {
     }
   };
 };
+
